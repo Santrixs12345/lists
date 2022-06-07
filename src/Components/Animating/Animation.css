@@ -1,0 +1,20 @@
+.Animation {
+    background-color: blueviolet;
+    
+}
+
+.Animation .transition {
+    transition: all 5s ease 0.5s;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+
+.Animation .transition.show {
+    margin-top: 50px;
+    border: white;
+    padding-bottom: 200px;
+    background-color: blueviolet;
+    text-shadow: black;
+    
+}

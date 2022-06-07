@@ -1,0 +1,20 @@
+#chart {
+    background-color: #fff;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+p {
+    
+    text-shadow: violet;
+    border: tomato;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+/*los rem son medidas que dependen del tamanio de la pagina(se
+se ajusta al tamanio de la pagina*/

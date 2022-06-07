@@ -1,0 +1,46 @@
+.Numbers {
+    background-color: rgb(140, 205, 167);
+    padding: 30px
+}
+
+.Numbers input[type=number]::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Numbers input {
+    width: 1000px;
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+    border: 2.5px solid rgb(28, 25, 25);
+    padding: 10px;
+    border-style: solid dashed;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    background-color: lightgray;
+}
+
+.Numbers ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: solid;
+    width: 150px;
+}
+
+.Numbers ul li {
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.Numbers ul li:first-child {
+    border-top: none;
+}
+
+.Numbers ul li:last-child {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
